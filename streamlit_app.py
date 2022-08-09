@@ -54,3 +54,9 @@ streamlit.header("Fruit load list contains:")
 streamlit.dataframe(my_data_row)
 
 
+##to load all rows 
+my_data_rows = my_cur.fetchall()
+##streamlit.text("Hello from Snowflake:")
+streamlit.header("Fruit load list contains:")
+streamlit.dataframe(my_data_rows)
+
