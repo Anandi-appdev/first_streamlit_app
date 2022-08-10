@@ -51,7 +51,7 @@ except URLError as e:
      streamlit.error()
   
 ##Don't run anythong past while we trubleshoot
-streamlit.stop()
+#streamlit.stop()
 
 ##my_cur.execute("SELECT CURRENT_USER(), CURRENT_ACCOUNT(), CURRENT_REGION()")
 ##streamlit.text("Hello from Snowflake:")
